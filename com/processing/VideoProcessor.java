@@ -1,4 +1,4 @@
-package java.processing;
+package com.processing;
 
 public class VideoProcessor {
     
