@@ -1,5 +1,5 @@
-// to compile the code, use: javac Main.java
-// to execute: java Main
+// to compile the code, use: javac -d test Main.java
+// to execute: java -cp test Main
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +14,7 @@ public class Main {
     }
 
     private static void createAndShowGUI() {
-        JFrame frame = new JFrame("Drive Gardian");
+        JFrame frame = new JFrame("Drive Guardian");
         
         ImageIcon customIcon = new ImageIcon("assets/icon.png");
         frame.setIconImage(customIcon.getImage());
